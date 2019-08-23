@@ -24,6 +24,6 @@ def long_planeteer_calls(short_words)
 end
 
 def find_the_cheese
-  
+  snacks = ["crackers", "gouda", "thyme"]
   
 end
