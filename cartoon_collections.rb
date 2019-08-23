@@ -24,7 +24,8 @@ def long_planeteer_calls(short_words)
 end
 
 def find_the_cheese
+  cheese= ["cheddar", "gouda", "camembert"]
   snacks = ["crackers", "gouda", "thyme"]
   soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
-  find_the_cheese([])
+  find_the_cheese(["crackers", "gouda", "thyme"]).find {|cheese| cheese, index}
 end
